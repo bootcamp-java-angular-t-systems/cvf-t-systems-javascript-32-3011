@@ -6,8 +6,8 @@ function reverseTexto(texto) {
 function verificarPalindromo() {
   const texto = reverseTexto(document.getElementById("textoInput").value);
   const resultadoMsg = texto
-    ? `La cadena "${texto}" es un palíndromo`
-    : `La cadena "${texto}" no es un palíndromo`;
+    ? `La cadena es un palíndromo`
+    : `La cadena no es un palíndromo`;
 
   document.getElementById("resultadoPalindromo").textContent = resultadoMsg;
 }
